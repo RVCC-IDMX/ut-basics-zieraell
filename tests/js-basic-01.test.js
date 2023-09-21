@@ -24,7 +24,6 @@
 ? In Node, the scope of a global variable is the file that it is defined in.
 ?
 
-
 ? All of the variables and constants in this file are global variables.
 ? This is why we can access them anywhere after they are declared.
 ? We'll use this behavior to reuse some variables and constants multiple times
@@ -44,6 +43,8 @@ TODO: Use the let keyword to declare a variable called myName and make sure you
 TODO: DO NOT assign it a value.
 */
 // * Add your code BELOW here
+
+let myName;
 
 // * Don't mess with the test code below here!
 
@@ -68,6 +69,8 @@ TODO: number literal value of integer 22.
 
 // * Add your code BELOW here
 
+let age = 22;
+
 // * Don't mess with the test code below here!
 
 test('age', () => {
@@ -89,6 +92,8 @@ TODO: the number literal value 7.
 */
 
 // * Add your code BELOW here
+
+const daysInWeek = 7;
 
 // * Don't mess with the test code below here!
 
@@ -129,6 +134,9 @@ TODO: of one variable to a different variable.
 
 // * Add your code BELOW here
 
+let myWorkDays;
+myWorkDays = daysInWeek;
+
 // * Don't mess with the test code below here!
 
 test('myWorkDays', () => {
@@ -160,6 +168,10 @@ TODO: (using the * operator for multiplication).
 
 // * Add your code BELOW here
 
+let oops;
+let sillyMath;
+sillyMath = oops * 2;
+
 // * Don't mess with the test code below here!
 
 test('sillyMath', () => {
@@ -187,6 +199,10 @@ TODO: In the second line, assign sillyString to 'Hello, ' and concatenate oops t
 
 // * Add your code BELOW here
 
+let sillyString;
+sillyString = 'Hello, ';
+sillyString += oops;
+
 // * Don't mess with the test code below here!
 
 test('sillyString', () => {
@@ -209,6 +225,8 @@ TODO: keyword and assign it a value.
 // a variable (let) named year and set it to 2022
 // * Add your code BELOW here
 
+const year = 2022;
+
 // * Don't mess with the test code below here!
 test('year', () => {
   expect(year).toBe(2022);
@@ -219,6 +237,8 @@ test('year', () => {
 
 // * Add your code BELOW here
 
+let firstName = 'John';
+
 // * Don't mess with the test code below here!'
 test('firstName', () => {
   expect(firstName).toBe('John');
@@ -226,6 +246,8 @@ test('firstName', () => {
 });
 
 // a constant called taxRate and set it to 0.2
+
+const taxRate = 0.2;
 
 // * Add your code BELOW here
 
